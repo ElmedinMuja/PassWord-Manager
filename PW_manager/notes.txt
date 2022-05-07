@@ -1,0 +1,23 @@
+--- TO DO ---
+
+1 -
+ADD A FUNCTION THAT GENERATES NEW KEYS
++ RECODES OLD PW for added security
+*** see keys in my func
+
+2 - have the program ask for their name and use their name as
+    an identifier to find their json file
+    i.e elmedin creates elmedinPWM.json
+    would require: dixing functions, moving filename to an arugment for function
+
+3 - add check for each function to check if if file has any data.
+
+4 - NEW ENCRYPTION IDEA
+    =using the current method of 1:1 from decrypt_string and encrypt_string
+    take the byte code (i.e 0100101) and move x [x is an int that would be a given arg]
+    down the list and use that new char as the new encrypted char
+    i.e a -> ; whos byte is 0101011 but 3 down is 0101111 which would [for example] be ']'
+
+5 - add a access file password for each existing file and prompt one when a new file is creatd
+    - this password will always be requested in order to access the file; for security.
+
